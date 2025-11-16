@@ -1,0 +1,75 @@
+@import './base.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* ===== BACKGROUND ===== */
+body {
+  background-color: #f0f2f5; /* nền xám nhạt kiểu Facebook */
+  color: #050505;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: #ffffff;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1877f2; /* xanh Facebook */
+}
+
+/* ===== MAIN CONTENT WRAPPER ===== */
+.main-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+/* ===== CARD STYLE (giống post Facebook) ===== */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* ===== BUTTON ===== */
+.button-primary {
+  background-color: #1877f2;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.button-primary:hover {
+  background-color: #166fe5;
+}
+
+/* Input Facebook style */
+.input-box {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccd0d5;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.input-box:focus {
+  border-color: #1877f2;
+  outline: none;
+}
